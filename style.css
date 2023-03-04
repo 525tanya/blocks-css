@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../src/fonts/Roboto-Black.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../src/fonts/Roboto-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url("../src/fonts/Roboto-Italic.ttf") format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    /*text-align: center;*/
+    color: #140606;
+    background-color: hsl(0, 0%, 98%);
+    /**/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                not supported by any browser */
+
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+header{
+    background-color: rgb(35, 4, 121);
+    height: 120px;
+    line-height: 120px;
+}
+.bg-img{
+    background-image: url(../src/fon.png);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+div{
+    margin: 20px;
+    text-align: center;
+    min-height: calc(100vh-(120px+60px));
+}
+nav{
+    box-sizing: border-box;
+    background-color: rgb(7, 7, 174);
+    display: inline-block;
+    max-width: 320px;
+    text-align: left;
+    vertical-align: top;
+}
+a{
+    margin: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+a:hover{
+    color: rgb(80, 199, 246);
+}
+main{
+    padding: 20px 60px;
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-color: aqua;
+    text-align: left;
+    margin-left: 30px;
+    max-width: 680px;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+#html{
+    color: rgb(6, 6, 157);
+}
+#js{
+    color: rgb(242, 156, 6);
+}
+#node{
+    color: rgb(3, 89, 37);
+}
+#css span:nth-child(1) {
+    color: rgb(39, 116, 249);
+}
+#css span:nth-child(2) {
+    color: rgb(10, 10, 122);
+}
+#css span:nth-child(3) {
+    color: rgb(91, 25, 142); 
+}
+footer{
+    height: 60px;
+    text-align: center;
+    background-color: rgb(10, 1, 91);
+    background-size: cover;
+    font-size: 26px;
+    color: #f8f8f8;
+}
